@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tích hợp SDK VNPT eKYC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYU-3G-E6r">
+                                <rect key="frame" x="16" y="91" width="361" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xT-q2-8Tl">
+                                <rect key="frame" x="16" y="144" width="361" height="48"/>
+                                <color key="backgroundColor" red="0.090196078430000007" green="0.83921568629999999" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="fcq-Wg-w5E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="eKYC luồng đầy đủ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceh-ew-3Rm">
+                                <rect key="frame" x="16" y="208" width="361" height="48"/>
+                                <color key="backgroundColor" red="0.090196078430000007" green="0.83921568629999999" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="xDa-yc-LTT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Thực hiện OCR giấy tờ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpD-5X-FW5">
+                                <rect key="frame" x="16" y="272" width="361" height="48"/>
+                                <color key="backgroundColor" red="0.090196078430000007" green="0.83921568629999999" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="tZn-r4-fhX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Thực hiện kiểm tra khuôn mặt">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1xT-q2-8Tl" secondAttribute="trailing" constant="16" id="2gB-Yq-ytg"/>
+                            <constraint firstItem="ceh-ew-3Rm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="6LV-4z-vbb"/>
+                            <constraint firstItem="gpD-5X-FW5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="AUT-Vx-Zx2"/>
+                            <constraint firstItem="gpD-5X-FW5" firstAttribute="top" secondItem="ceh-ew-3Rm" secondAttribute="bottom" constant="16" id="Bi5-We-AvU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OYU-3G-E6r" secondAttribute="trailing" constant="16" id="E9o-YY-Bae"/>
+                            <constraint firstItem="OYU-3G-E6r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="IuK-rt-PgK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ceh-ew-3Rm" secondAttribute="trailing" constant="16" id="TJd-Cx-BW5"/>
+                            <constraint firstItem="ceh-ew-3Rm" firstAttribute="top" secondItem="1xT-q2-8Tl" secondAttribute="bottom" constant="16" id="Urq-hf-GDG"/>
+                            <constraint firstItem="1xT-q2-8Tl" firstAttribute="top" secondItem="OYU-3G-E6r" secondAttribute="bottom" constant="32" id="cb1-fU-929"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gpD-5X-FW5" secondAttribute="trailing" constant="16" id="cdI-pz-ekB"/>
+                            <constraint firstItem="1xT-q2-8Tl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="esK-g4-4cd"/>
+                            <constraint firstItem="OYU-3G-E6r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="tIt-gh-u6l"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonFace" destination="gpD-5X-FW5" id="IMU-jk-Ax7"/>
+                        <outlet property="buttonFullEkyc" destination="1xT-q2-8Tl" id="Vnt-c2-HrX"/>
+                        <outlet property="buttonOCR" destination="ceh-ew-3Rm" id="kDw-M0-r1R"/>
+                        <outlet property="labelTitle" destination="OYU-3G-E6r" id="Ebu-2Q-Hvl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="5"/>
+        </scene>
+        <!--Result Ekyc View Controller-->
+        <scene sceneID="dA0-DK-eZW">
+            <objects>
+                <viewController storyboardIdentifier="ResultEkyc" id="Nag-y7-FLM" customClass="ResultEkycViewController" customModule="VNPTeKYCSampleObjectiveC" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DIE-PF-XSr"/>
+                        <viewControllerLayoutGuide type="bottom" id="UeF-iG-WTz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AVW-kz-xcN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="A0s-7O-R7L">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9S9-B8-yjT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UeF-iG-WTz" firstAttribute="top" secondItem="A0s-7O-R7L" secondAttribute="bottom" id="C93-Fk-WxC"/>
+                            <constraint firstAttribute="trailing" secondItem="A0s-7O-R7L" secondAttribute="trailing" id="Ju1-gS-Bkq"/>
+                            <constraint firstItem="A0s-7O-R7L" firstAttribute="top" secondItem="DIE-PF-XSr" secondAttribute="bottom" id="OXU-Sq-Jey"/>
+                            <constraint firstItem="A0s-7O-R7L" firstAttribute="leading" secondItem="AVW-kz-xcN" secondAttribute="leading" id="nGF-9S-8TM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewResult" destination="A0s-7O-R7L" id="3Y6-M2-C8V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bPS-aw-8SJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

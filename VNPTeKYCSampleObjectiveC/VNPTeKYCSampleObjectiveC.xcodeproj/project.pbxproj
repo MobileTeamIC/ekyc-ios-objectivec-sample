@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB68F6A82C99E67200305CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6A72C99E67200305CCB /* AppDelegate.m */; };
+		AB68F6AB2C99E67200305CCB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6AA2C99E67200305CCB /* SceneDelegate.m */; };
+		AB68F6AE2C99E67200305CCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6AD2C99E67200305CCB /* ViewController.m */; };
+		AB68F6B12C99E67200305CCB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB68F6B02C99E67200305CCB /* Base */; };
+		AB68F6B32C99E67300305CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB68F6B22C99E67300305CCB /* Assets.xcassets */; };
+		AB68F6B62C99E67300305CCB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB68F6B52C99E67300305CCB /* Base */; };
+		AB68F6B92C99E67300305CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6B82C99E67300305CCB /* main.m */; };
+		AB68F6C32C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6C22C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests.m */; };
+		AB68F6CD2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6CC2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests.m */; };
+		AB68F6CF2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6CE2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITestsLaunchTests.m */; };
+		AB68F6E32C99E78D00305CCB /* ResultEkycViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6E22C99E78D00305CCB /* ResultEkycViewController.swift */; };
+		AB68F6EA2C99E7C000305CCB /* ResultEkycHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6E42C99E7C000305CCB /* ResultEkycHeader.swift */; };
+		AB68F6EB2C99E7C000305CCB /* ResultEkycHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB68F6E52C99E7C000305CCB /* ResultEkycHeader.xib */; };
+		AB68F6EC2C99E7C000305CCB /* ResultEkycCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68F6E72C99E7C000305CCB /* ResultEkycCell.swift */; };
+		AB68F6ED2C99E7C000305CCB /* ResultEkycCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB68F6E82C99E7C000305CCB /* ResultEkycCell.xib */; };
+		AB68F6EE2C99E7ED00305CCB /* eKYCLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB68F6DB2C99E74B00305CCB /* eKYCLib.xcframework */; };
+		AB68F6EF2C99E7ED00305CCB /* eKYCLib.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB68F6DB2C99E74B00305CCB /* eKYCLib.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB68F6F12C99E7EE00305CCB /* ICSdkEKYC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB68F6DC2C99E74B00305CCB /* ICSdkEKYC.xcframework */; };
+		AB68F6F22C99E7EE00305CCB /* ICSdkEKYC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB68F6DC2C99E74B00305CCB /* ICSdkEKYC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB68F6BF2C99E67300305CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB68F69B2C99E67200305CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB68F6A22C99E67200305CCB;
+			remoteInfo = VNPTeKYCSampleObjectiveC;
+		};
+		AB68F6C92C99E67300305CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB68F69B2C99E67200305CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB68F6A22C99E67200305CCB;
+			remoteInfo = VNPTeKYCSampleObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB68F6F02C99E7ED00305CCB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AB68F6F22C99E7EE00305CCB /* ICSdkEKYC.xcframework in Embed Frameworks */,
+				AB68F6EF2C99E7ED00305CCB /* eKYCLib.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB68F6A32C99E67200305CCB /* VNPTeKYCSampleObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNPTeKYCSampleObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB68F6A62C99E67200305CCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB68F6A72C99E67200305CCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB68F6A92C99E67200305CCB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AB68F6AA2C99E67200305CCB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AB68F6AC2C99E67200305CCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB68F6AD2C99E67200305CCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB68F6B02C99E67200305CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB68F6B22C99E67300305CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB68F6B52C99E67300305CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB68F6B72C99E67300305CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB68F6B82C99E67300305CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB68F6BE2C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNPTeKYCSampleObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB68F6C22C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNPTeKYCSampleObjectiveCTests.m; sourceTree = "<group>"; };
+		AB68F6C82C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNPTeKYCSampleObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB68F6CC2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNPTeKYCSampleObjectiveCUITests.m; sourceTree = "<group>"; };
+		AB68F6CE2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNPTeKYCSampleObjectiveCUITestsLaunchTests.m; sourceTree = "<group>"; };
+		AB68F6DB2C99E74B00305CCB /* eKYCLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = eKYCLib.xcframework; sourceTree = "<group>"; };
+		AB68F6DC2C99E74B00305CCB /* ICSdkEKYC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ICSdkEKYC.xcframework; sourceTree = "<group>"; };
+		AB68F6E12C99E78D00305CCB /* VNPTeKYCSampleObjectiveC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VNPTeKYCSampleObjectiveC-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB68F6E22C99E78D00305CCB /* ResultEkycViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultEkycViewController.swift; sourceTree = "<group>"; };
+		AB68F6E42C99E7C000305CCB /* ResultEkycHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultEkycHeader.swift; sourceTree = "<group>"; };
+		AB68F6E52C99E7C000305CCB /* ResultEkycHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultEkycHeader.xib; sourceTree = "<group>"; };
+		AB68F6E72C99E7C000305CCB /* ResultEkycCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultEkycCell.swift; sourceTree = "<group>"; };
+		AB68F6E82C99E7C000305CCB /* ResultEkycCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultEkycCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB68F6A02C99E67200305CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB68F6F12C99E7EE00305CCB /* ICSdkEKYC.xcframework in Frameworks */,
+				AB68F6EE2C99E7ED00305CCB /* eKYCLib.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB68F6BB2C99E67300305CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB68F6C52C99E67300305CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB68F69A2C99E67200305CCB = {
+			isa = PBXGroup;
+			children = (
+				AB68F6A52C99E67200305CCB /* VNPTeKYCSampleObjectiveC */,
+				AB68F6C12C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests */,
+				AB68F6CB2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests */,
+				AB68F6A42C99E67200305CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB68F6A42C99E67200305CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB68F6A32C99E67200305CCB /* VNPTeKYCSampleObjectiveC.app */,
+				AB68F6BE2C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests.xctest */,
+				AB68F6C82C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB68F6A52C99E67200305CCB /* VNPTeKYCSampleObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				AB68F6DD2C99E74B00305CCB /* Sdks */,
+				AB68F6A62C99E67200305CCB /* AppDelegate.h */,
+				AB68F6A72C99E67200305CCB /* AppDelegate.m */,
+				AB68F6A92C99E67200305CCB /* SceneDelegate.h */,
+				AB68F6AA2C99E67200305CCB /* SceneDelegate.m */,
+				AB68F6AC2C99E67200305CCB /* ViewController.h */,
+				AB68F6AD2C99E67200305CCB /* ViewController.m */,
+				AB68F6AF2C99E67200305CCB /* Main.storyboard */,
+				AB68F6DE2C99E74B00305CCB /* Result */,
+				AB68F6B22C99E67300305CCB /* Assets.xcassets */,
+				AB68F6B42C99E67300305CCB /* LaunchScreen.storyboard */,
+				AB68F6B72C99E67300305CCB /* Info.plist */,
+				AB68F6B82C99E67300305CCB /* main.m */,
+				AB68F6E12C99E78D00305CCB /* VNPTeKYCSampleObjectiveC-Bridging-Header.h */,
+			);
+			path = VNPTeKYCSampleObjectiveC;
+			sourceTree = "<group>";
+		};
+		AB68F6C12C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB68F6C22C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests.m */,
+			);
+			path = VNPTeKYCSampleObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		AB68F6CB2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB68F6CC2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests.m */,
+				AB68F6CE2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITestsLaunchTests.m */,
+			);
+			path = VNPTeKYCSampleObjectiveCUITests;
+			sourceTree = "<group>";
+		};
+		AB68F6DD2C99E74B00305CCB /* Sdks */ = {
+			isa = PBXGroup;
+			children = (
+				AB68F6DB2C99E74B00305CCB /* eKYCLib.xcframework */,
+				AB68F6DC2C99E74B00305CCB /* ICSdkEKYC.xcframework */,
+			);
+			path = Sdks;
+			sourceTree = "<group>";
+		};
+		AB68F6DE2C99E74B00305CCB /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				AB68F6E92C99E7C000305CCB /* ResultEkycCell */,
+				AB68F6E62C99E7C000305CCB /* ResultEkycHeader */,
+				AB68F6E22C99E78D00305CCB /* ResultEkycViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		AB68F6E62C99E7C000305CCB /* ResultEkycHeader */ = {
+			isa = PBXGroup;
+			children = (
+				AB68F6E42C99E7C000305CCB /* ResultEkycHeader.swift */,
+				AB68F6E52C99E7C000305CCB /* ResultEkycHeader.xib */,
+			);
+			path = ResultEkycHeader;
+			sourceTree = "<group>";
+		};
+		AB68F6E92C99E7C000305CCB /* ResultEkycCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB68F6E72C99E7C000305CCB /* ResultEkycCell.swift */,
+				AB68F6E82C99E7C000305CCB /* ResultEkycCell.xib */,
+			);
+			path = ResultEkycCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB68F6A22C99E67200305CCB /* VNPTeKYCSampleObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB68F6D22C99E67300305CCB /* Build configuration list for PBXNativeTarget "VNPTeKYCSampleObjectiveC" */;
+			buildPhases = (
+				AB68F69F2C99E67200305CCB /* Sources */,
+				AB68F6A02C99E67200305CCB /* Frameworks */,
+				AB68F6A12C99E67200305CCB /* Resources */,
+				AB68F6F02C99E7ED00305CCB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VNPTeKYCSampleObjectiveC;
+			productName = VNPTeKYCSampleObjectiveC;
+			productReference = AB68F6A32C99E67200305CCB /* VNPTeKYCSampleObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB68F6BD2C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB68F6D52C99E67300305CCB /* Build configuration list for PBXNativeTarget "VNPTeKYCSampleObjectiveCTests" */;
+			buildPhases = (
+				AB68F6BA2C99E67300305CCB /* Sources */,
+				AB68F6BB2C99E67300305CCB /* Frameworks */,
+				AB68F6BC2C99E67300305CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB68F6C02C99E67300305CCB /* PBXTargetDependency */,
+			);
+			name = VNPTeKYCSampleObjectiveCTests;
+			productName = VNPTeKYCSampleObjectiveCTests;
+			productReference = AB68F6BE2C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB68F6C72C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB68F6D82C99E67300305CCB /* Build configuration list for PBXNativeTarget "VNPTeKYCSampleObjectiveCUITests" */;
+			buildPhases = (
+				AB68F6C42C99E67300305CCB /* Sources */,
+				AB68F6C52C99E67300305CCB /* Frameworks */,
+				AB68F6C62C99E67300305CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB68F6CA2C99E67300305CCB /* PBXTargetDependency */,
+			);
+			name = VNPTeKYCSampleObjectiveCUITests;
+			productName = VNPTeKYCSampleObjectiveCUITests;
+			productReference = AB68F6C82C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB68F69B2C99E67200305CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AB68F6A22C99E67200305CCB = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+					AB68F6BD2C99E67300305CCB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AB68F6A22C99E67200305CCB;
+					};
+					AB68F6C72C99E67300305CCB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AB68F6A22C99E67200305CCB;
+					};
+				};
+			};
+			buildConfigurationList = AB68F69E2C99E67200305CCB /* Build configuration list for PBXProject "VNPTeKYCSampleObjectiveC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB68F69A2C99E67200305CCB;
+			productRefGroup = AB68F6A42C99E67200305CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB68F6A22C99E67200305CCB /* VNPTeKYCSampleObjectiveC */,
+				AB68F6BD2C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests */,
+				AB68F6C72C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB68F6A12C99E67200305CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB68F6ED2C99E7C000305CCB /* ResultEkycCell.xib in Resources */,
+				AB68F6B32C99E67300305CCB /* Assets.xcassets in Resources */,
+				AB68F6EB2C99E7C000305CCB /* ResultEkycHeader.xib in Resources */,
+				AB68F6B62C99E67300305CCB /* Base in Resources */,
+				AB68F6B12C99E67200305CCB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB68F6BC2C99E67300305CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB68F6C62C99E67300305CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB68F69F2C99E67200305CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB68F6AE2C99E67200305CCB /* ViewController.m in Sources */,
+				AB68F6EA2C99E7C000305CCB /* ResultEkycHeader.swift in Sources */,
+				AB68F6EC2C99E7C000305CCB /* ResultEkycCell.swift in Sources */,
+				AB68F6E32C99E78D00305CCB /* ResultEkycViewController.swift in Sources */,
+				AB68F6A82C99E67200305CCB /* AppDelegate.m in Sources */,
+				AB68F6B92C99E67300305CCB /* main.m in Sources */,
+				AB68F6AB2C99E67200305CCB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB68F6BA2C99E67300305CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB68F6C32C99E67300305CCB /* VNPTeKYCSampleObjectiveCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB68F6C42C99E67300305CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB68F6CF2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITestsLaunchTests.m in Sources */,
+				AB68F6CD2C99E67300305CCB /* VNPTeKYCSampleObjectiveCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB68F6C02C99E67300305CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB68F6A22C99E67200305CCB /* VNPTeKYCSampleObjectiveC */;
+			targetProxy = AB68F6BF2C99E67300305CCB /* PBXContainerItemProxy */;
+		};
+		AB68F6CA2C99E67300305CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB68F6A22C99E67200305CCB /* VNPTeKYCSampleObjectiveC */;
+			targetProxy = AB68F6C92C99E67300305CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB68F6AF2C99E67200305CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB68F6B02C99E67200305CCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB68F6B42C99E67300305CCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB68F6B52C99E67300305CCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB68F6D02C99E67300305CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB68F6D12C99E67300305CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB68F6D32C99E67300305CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VNPTeKYCSampleObjectiveC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.VNPTeKYCSampleObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VNPTeKYCSampleObjectiveC/VNPTeKYCSampleObjectiveC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB68F6D42C99E67300305CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VNPTeKYCSampleObjectiveC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.VNPTeKYCSampleObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VNPTeKYCSampleObjectiveC/VNPTeKYCSampleObjectiveC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB68F6D62C99E67300305CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.VNPTeKYCSampleObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VNPTeKYCSampleObjectiveC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VNPTeKYCSampleObjectiveC";
+			};
+			name = Debug;
+		};
+		AB68F6D72C99E67300305CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.VNPTeKYCSampleObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VNPTeKYCSampleObjectiveC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VNPTeKYCSampleObjectiveC";
+			};
+			name = Release;
+		};
+		AB68F6D92C99E67300305CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.VNPTeKYCSampleObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VNPTeKYCSampleObjectiveC;
+			};
+			name = Debug;
+		};
+		AB68F6DA2C99E67300305CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.VNPTeKYCSampleObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VNPTeKYCSampleObjectiveC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB68F69E2C99E67200305CCB /* Build configuration list for PBXProject "VNPTeKYCSampleObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB68F6D02C99E67300305CCB /* Debug */,
+				AB68F6D12C99E67300305CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB68F6D22C99E67300305CCB /* Build configuration list for PBXNativeTarget "VNPTeKYCSampleObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB68F6D32C99E67300305CCB /* Debug */,
+				AB68F6D42C99E67300305CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB68F6D52C99E67300305CCB /* Build configuration list for PBXNativeTarget "VNPTeKYCSampleObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB68F6D62C99E67300305CCB /* Debug */,
+				AB68F6D72C99E67300305CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB68F6D82C99E67300305CCB /* Build configuration list for PBXNativeTarget "VNPTeKYCSampleObjectiveCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB68F6D92C99E67300305CCB /* Debug */,
+				AB68F6DA2C99E67300305CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB68F69B2C99E67200305CCB /* Project object */;
+}
